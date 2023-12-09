@@ -1,0 +1,33 @@
+{
+  "name": "proxy-hosts",
+  "version": "1.0.0",
+  "description": "Override the IP address returned for one or more domains.",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "mocha -R spec ./tests"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linhuibin98/proxy-hosts.git"
+  },
+  "keywords": [
+    "dns",
+    "override",
+    "domain",
+    "change",
+    "ip",
+    "address",
+    "host",
+    "proxy"
+  ],
+  "author": "linhuibin98",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "mocha": "^2.1.0"
+  }
+}
